@@ -1,0 +1,15 @@
+name: Helm Kubernetes
+author: 
+description: Github Actions for helm
+
+inputs:
+  script:
+    description: Multi line script to be executed inside helm-actions
+    required: true
+    default: 'echo No Command Provided' 
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: helm
+  color: blue
