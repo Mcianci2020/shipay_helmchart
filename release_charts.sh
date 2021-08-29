@@ -2,7 +2,7 @@
 
 PROJECT_DIR=$(pwd)
 
-declare -a CHARTS_ARRAY=("fastAPI" "faust" )
+declare -a CHARTS_ARRAY=("apiRest" "worker" )
 
 for i in "${CHARTS_ARRAY[@]}"
 do
